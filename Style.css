@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(87, 85, 85);
+    width: 200px;
+    width: 434px;
+    font-family:'Noto Serif', serif ;
+    height: 212vh;
+}
+.sidebar nav {
+    padding:50px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding:30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 89vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: yellowgreen; */
+    height: 58vh;
+    width: 80vw;
+    margin:auto;
+    margin-top: 152px;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 58vh;
+    width:300px;
+    
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 45px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.buttons{
+margin-top: 10px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family:'Noto Serif', serif  ;
+}
+.contactform h1{
+    text-align: center;
+}
+.contactform  form div{
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 2px;
+}
+.blogitem{
+    margin:20px;
+    font-family:'Noto Serif', serif  ;
+    
+}
+.blogitem h1{
+    font-family:'Noto Serif', serif  ;
+    margin: 30px;
+}
+.blogitem h2{
+    font-family:'Noto Serif', serif  ;
+}
+.blogitem p{
+    font-family:'Noto Serif', serif  ;
+}
