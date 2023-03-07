@@ -110,3 +110,25 @@ margin-top: 10px;
 .blogitem p{
     font-family:'Noto Serif', serif  ;
 }
+.intro h1{
+    font-family:'Noto Serif', serif  ;
+    margin:12px;
+}
+.intro p{
+    font-family:'Noto Serif', serif  ;
+    margin:12px;
+}
+.skillcontainer{
+    padding: 12px;
+
+}
+.skill{
+    
+    width: 23px;
+    height: 23px;
+
+}
+.skillitem{
+padding: 0 1px;
+
+}
