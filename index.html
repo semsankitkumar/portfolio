@@ -1,44 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="Style.css">
+    <title>Portfolio | Ankit</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
+
 <body>
-<div class="container">
- <div class="sidebar">
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/intro.html">My Intro</a></li>
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/contact.html">Contact Me</a></li>
-            
-        </ul>
-    </nav>
- </div>
-    <div class="main"> 
-       <div class="infocontainer">
-        <div class="devinfo">
-        <div class="hello">Hi I am</div>
-        <div class="name">Ankit Kumar</div>
-        <div class="about">I am a student</div>
-        <div class="moreabout">Currently i am pursuing my Bachlor degree from Netaji Subhas University</div>
-        <div class="buttons">
-            <a href="/cv.txt" target="_blank">
-            <button>Downlode CV</button></a>
-            <a href="/contact.html"><button>Contact Me</button></a>
-        </div>
-        </div>
-        <div class="devpic">
-            <img src="IMG_20221125_233658_662.jpg" alt="Ankit">
-        </div>
-       </div>
-    </div>
- </div>
+    <header>
+        <nav class="sidebar">
+            <div class="sidebar-container">
+                <a href="#home" class="menu-link p2 active">
+                    <i class="fas fa-home fa-fw"></i>
+                </a>
+                <a href="#about" class="menu-link p2">
+                    <i class="fas fa-user fa-fw"></i>
+                </a>
+                <a href="#" class="menu-link p2"><i class="fas fa-blog fa-fw"></i>
+                </a>
+                <a href="#" class="menu-link p2"><i class="fas fa-address-card fa-fw"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="d-flex flex-column justify-content-center">
+            <h1>Ankit Kumar</h1>
+            <p>I'm a
+                <span class="typed">Software Developer</span>
+                <span class="cursor">|</span>
+            </p>
+            <div class="social-links">
+                <a>
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </section>
+        <section id="about" class="">
+            <div class="title">
+                <h1>About</h1>
+            </div>
+
+            <p>I'm Ankit Kumar from Jamshedpur, Jharkhand. Currently I am pursuing my Bachlor's degree in Computer
+                Application from Netaji Subhas University, I have completed my Intermediate from Karim City College and
+                my Matriculation from Dayanand Public School.</p>
+            <p>My strength are that i am an Quick learner, I easily adapt to new enviroment.</p>
+
+            <div class="row">
+                <div class="col col-md-3">
+                    <img src="/assets/images/IMG_20221125_233658_662.jpg" alt="Ankit Kumar" class="user">
+                </div>
+                <div class="col col-md-9">
+                    <h3 class="designation">Software Developer Aspirant</h3>
+                    <p>Software development is a vast field and one that is creative, demanding and extremely rewarding. A career as a Software Developer gives you the opportunity to learn about the business as well as technology.</p>
+                    <div class="row">
+                        <div class="col col-md-6">
+                            <ul class="details">
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <strong>Birthday: </strong>
+                                    <span>30 January, 2002</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <strong>Degree: </strong>
+                                    <span>BCA</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <strong>Phone: </strong>
+                                    <span>+91 9279314964</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <strong>City: </strong>
+                                    <span>Jamshedpur</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col col-md-6">
+                            <ul class="details">
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <strong>Age: </strong>
+                                    <span>21</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <strong>College: </strong>
+                                    <span>Netaji Subhas University</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <strong>Email: </strong>
+                                    <span>ankitkumar143v@gmail.com</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <strong>State: </strong>
+                                    <span>Jharkhand</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Software developers create computer programs and solve technical problems using their creativity, analytical thinking and problem-solving skills. With the world becoming more digitised, these professionals are high in demand. While software development is a lucrative profession, you need to have the necessary education, qualification, practical training and skills to be successful in this career. In this article, we will discuss what is a software developer, what they do, why become one, explore their salary, understand the skills, programming language needed and steps required to become a software developer.</p>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f49ade4a32.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
 </body>
+
 </html>

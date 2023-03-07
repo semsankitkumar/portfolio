@@ -1,0 +1,122 @@
+body {
+    background-color: #232323;
+    color: #e2e2e2;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    /* Height of navbar */
+    /* box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%); */
+    width: 55px;
+    min-width: 55px;
+    z-index: 600;
+
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+}
+
+.sidebar-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 250px;
+    padding: 5px;
+}
+
+.sidebar .menu-link {
+    color: #616161;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 0 #252525;
+
+    width: 50px;
+    height: 50px;
+    background-color: #d6d6d6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .menu-link:hover {
+    box-shadow: 1px 1px 7px 0 #252525;
+}
+
+.sidebar .menu-link.active {
+    background-color: #2c58a0;
+    color: #ffffff;
+}
+
+
+
+main {
+    height: 100vh;
+}
+
+main section {
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.title h1 {
+    display: inline;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#home {
+    background-image: url(/assets/images/pexels-david-besh-884788.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #2d2d2d;
+}
+
+#home .typed {
+    color: #1e64d7;
+    font-weight: 500;
+}
+
+#home .cursor {
+    color: #1e64d7;
+    animation: blink 2s steps(2, start) infinite;
+}
+
+#about .designation {
+    color: #1e64d7;
+}
+
+
+.user {
+    width: 100%;
+}
+
+#about .details {
+    list-style: none;
+}
+
+/* @media (max-width: 576px) {
+    .user {
+        width: 100%;
+    }
+} */
+
+@keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
